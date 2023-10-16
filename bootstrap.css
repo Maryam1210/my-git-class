@@ -1,0 +1,54 @@
+.expose{
+width: auto;
+}
+.venue{
+    background-image: linear-gradient(to right,#bc8d1a,#5576cf,#5576cf);
+}
+.card:hover{
+    background-color: green;
+    color: white;
+    transition: .8s;
+
+}
+.card1:hover{
+    background-color:blue;
+    transition: .8s;
+}
+.marquee img{
+margin-left: 40px;
+animation: marq 3s ease-in 1s infinite forwards;
+}
+footer{
+    background-image: linear-gradient(to right top,
+    #132351 70%,#79415b 90%);
+}
+.laptops{
+    animation: lap 3s ease 1s infinite forwards;
+    transition: .8s;
+
+}
+.laptops:hover{
+    transform: rotate(30deg);
+}
+.line{
+    width: 350px;
+font-size: larger;
+}
+ /* @media (max-width: 768px) { 
+body{
+    background-color:gray;
+}
+ }
+@media (max-width: 768px){
+    .display{
+        display: none;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+    }
+}
+@media (max-width:768px){
+    nav{
+        display: flex;
+        font-style: italic;
+    }
+} */
