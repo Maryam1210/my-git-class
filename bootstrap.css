@@ -34,21 +34,14 @@ footer{
     width: 350px;
 font-size: larger;
 }
- /* @media (max-width: 768px) { 
-body{
-    background-color:gray;
-}
- }
-@media (max-width: 768px){
-    .display{
-        display: none;
-        font-family: 'Times New Roman', Times, serif;
-        text-decoration: underline;
+
+    .img{
+width: 250px;
+margin-left: 40px;
+    }
+
+@media screen and (max-width: 768px){
+    .picture{
+        width: 100px;
     }
 }
-@media (max-width:768px){
-    nav{
-        display: flex;
-        font-style: italic;
-    }
-} */
