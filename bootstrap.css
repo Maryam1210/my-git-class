@@ -45,3 +45,13 @@ margin-left: 40px;
         width: 100px;
     }
 }
+.live{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+.live{
+    margin-top: 50px;
+}
+}
